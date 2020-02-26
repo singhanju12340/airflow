@@ -5433,3 +5433,75 @@ NameError: name 'dummy_operator' is not defined
 [2020-02-26 17:38:13,831] {logging_mixin.py:112} INFO - [2020-02-26 17:38:13,831] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
 [2020-02-26 17:38:13,837] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
 [2020-02-26 17:38:13,866] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.037 seconds
+[2020-02-26 17:38:36,183] {logging_mixin.py:112} INFO - [2020-02-26 17:38:36,183] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=13695
+[2020-02-26 17:38:36,185] {scheduler_job.py:153} INFO - Started process (PID=13695) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:38:36,187] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:38:36,187] {logging_mixin.py:112} INFO - [2020-02-26 17:38:36,187] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:38:36,193] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:38:36,220] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.034 seconds
+[2020-02-26 17:38:58,486] {logging_mixin.py:112} INFO - [2020-02-26 17:38:58,486] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=14047
+[2020-02-26 17:38:58,492] {scheduler_job.py:153} INFO - Started process (PID=14047) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:38:58,498] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:38:58,499] {logging_mixin.py:112} INFO - [2020-02-26 17:38:58,499] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:38:58,513] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:38:58,553] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.061 seconds
+[2020-02-26 17:39:20,870] {logging_mixin.py:112} INFO - [2020-02-26 17:39:20,869] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=14353
+[2020-02-26 17:39:20,876] {scheduler_job.py:153} INFO - Started process (PID=14353) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:39:20,882] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:39:20,883] {logging_mixin.py:112} INFO - [2020-02-26 17:39:20,883] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:39:20,891] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:39:20,925] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.049 seconds
+[2020-02-26 17:39:43,202] {logging_mixin.py:112} INFO - [2020-02-26 17:39:43,201] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=14700
+[2020-02-26 17:39:43,209] {scheduler_job.py:153} INFO - Started process (PID=14700) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:39:43,215] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:39:43,216] {logging_mixin.py:112} INFO - [2020-02-26 17:39:43,216] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:39:43,234] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:39:43,287] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.077 seconds
+[2020-02-26 17:40:05,554] {logging_mixin.py:112} INFO - [2020-02-26 17:40:05,554] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=15046
+[2020-02-26 17:40:05,556] {scheduler_job.py:153} INFO - Started process (PID=15046) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:05,559] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:40:05,560] {logging_mixin.py:112} INFO - [2020-02-26 17:40:05,559] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:05,567] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:05,601] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.045 seconds
+[2020-02-26 17:40:27,910] {logging_mixin.py:112} INFO - [2020-02-26 17:40:27,909] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=15387
+[2020-02-26 17:40:27,912] {scheduler_job.py:153} INFO - Started process (PID=15387) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:27,913] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:40:27,913] {logging_mixin.py:112} INFO - [2020-02-26 17:40:27,913] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:27,919] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:27,943] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.032 seconds
+[2020-02-26 17:40:50,281] {logging_mixin.py:112} INFO - [2020-02-26 17:40:50,280] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=15719
+[2020-02-26 17:40:50,283] {scheduler_job.py:153} INFO - Started process (PID=15719) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:50,284] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:40:50,285] {logging_mixin.py:112} INFO - [2020-02-26 17:40:50,285] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:50,291] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:40:50,314] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.031 seconds
+[2020-02-26 17:41:12,659] {logging_mixin.py:112} INFO - [2020-02-26 17:41:12,659] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=16017
+[2020-02-26 17:41:12,663] {scheduler_job.py:153} INFO - Started process (PID=16017) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:12,666] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:41:12,666] {logging_mixin.py:112} INFO - [2020-02-26 17:41:12,666] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:12,674] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:12,706] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.044 seconds
+[2020-02-26 17:41:35,092] {logging_mixin.py:112} INFO - [2020-02-26 17:41:35,091] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=16314
+[2020-02-26 17:41:35,099] {scheduler_job.py:153} INFO - Started process (PID=16314) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:35,103] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:41:35,103] {logging_mixin.py:112} INFO - [2020-02-26 17:41:35,103] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:35,113] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:35,142] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.043 seconds
+[2020-02-26 17:41:57,405] {logging_mixin.py:112} INFO - [2020-02-26 17:41:57,405] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=16697
+[2020-02-26 17:41:57,409] {scheduler_job.py:153} INFO - Started process (PID=16697) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:57,412] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:41:57,413] {logging_mixin.py:112} INFO - [2020-02-26 17:41:57,412] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:57,420] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:41:57,461] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.052 seconds
+[2020-02-26 17:42:19,762] {logging_mixin.py:112} INFO - [2020-02-26 17:42:19,761] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=16994
+[2020-02-26 17:42:19,769] {scheduler_job.py:153} INFO - Started process (PID=16994) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:42:19,774] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:42:19,775] {logging_mixin.py:112} INFO - [2020-02-26 17:42:19,775] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:42:19,786] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:42:19,815] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.047 seconds
+[2020-02-26 17:42:42,034] {logging_mixin.py:112} INFO - [2020-02-26 17:42:42,034] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=17307
+[2020-02-26 17:42:42,037] {scheduler_job.py:153} INFO - Started process (PID=17307) to work on /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:42:42,039] {scheduler_job.py:1560} INFO - Processing file /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py for tasks to queue
+[2020-02-26 17:42:42,040] {logging_mixin.py:112} INFO - [2020-02-26 17:42:42,040] {dagbag.py:403} INFO - Filling up the DagBag from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:42:42,047] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py
+[2020-02-26 17:42:42,082] {scheduler_job.py:161} INFO - Processing /home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py took 0.045 seconds

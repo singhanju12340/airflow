@@ -6151,3 +6151,369 @@ File Path                                                                       
 [2020-02-26 17:38:12,767] {dag_processing.py:911} INFO - There are 24 files in /home/hasher/PycharmProjects/airflow/airflow_home/dags
 [2020-02-26 17:38:13,792] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
 [2020-02-26 17:38:13,793] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:03:13.793306+00:00
+[2020-02-26 17:38:23,965] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:38:23,966] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:03:23.965995+00:00
+[2020-02-26 17:38:24,001] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:08:14
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:08:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:08:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.01s           2020-02-26T12:08:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.02s           2020-02-26T12:08:15
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.02s           2020-02-26T12:08:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                    13534  0.01s             0           0  1.02s           2020-02-26T12:08:13
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.01s           2020-02-26T12:08:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.02s           2020-02-26T12:08:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:08:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.02s           2020-02-26T12:08:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.00s           2020-02-26T12:08:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:08:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.01s           2020-02-26T12:08:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.03s           2020-02-26T12:08:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:08:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.04s           2020-02-26T12:08:03
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.02s           2020-02-26T12:08:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.01s           2020-02-26T12:08:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:08:15
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.03s           2020-02-26T12:08:03
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                  13533  0.01s             0           0  1.03s           2020-02-26T12:08:13
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:08:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.02s           2020-02-26T12:08:14
+================================================================================
+[2020-02-26 17:38:34,128] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:38:34,129] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:03:34.129272+00:00
+[2020-02-26 17:38:44,283] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:38:44,284] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:03:44.284424+00:00
+[2020-02-26 17:38:54,417] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:38:54,417] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:03:54.417623+00:00
+[2020-02-26 17:38:54,431] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:08:37
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                               13987  0.00s             0           0  1.02s           2020-02-26T12:08:44
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:08:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                             13986  0.01s             0           0  1.02s           2020-02-26T12:08:44
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.01s           2020-02-26T12:08:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:08:46
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:08:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.01s           2020-02-26T12:08:45
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.01s           2020-02-26T12:08:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:08:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.01s           2020-02-26T12:08:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.01s           2020-02-26T12:08:45
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:08:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.01s           2020-02-26T12:08:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:08:46
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:08:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.02s           2020-02-26T12:08:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.01s           2020-02-26T12:08:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.02s           2020-02-26T12:08:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:08:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:08:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.01s           2020-02-26T12:08:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:08:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.01s           2020-02-26T12:08:37
+================================================================================
+[2020-02-26 17:39:04,559] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:39:04,560] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:04:04.560015+00:00
+[2020-02-26 17:39:14,736] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:39:14,737] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:04:14.737131+00:00
+[2020-02-26 17:39:24,917] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:39:24,917] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:04:24.917942+00:00
+[2020-02-26 17:39:24,931] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:09:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:09:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:09:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.01s           2020-02-26T12:09:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.02s           2020-02-26T12:09:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:09:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:09:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.02s           2020-02-26T12:09:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.02s           2020-02-26T12:09:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:09:15
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.02s           2020-02-26T12:09:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.01s           2020-02-26T12:09:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:09:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.01s           2020-02-26T12:09:15
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:09:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:09:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.01s           2020-02-26T12:09:10
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.02s           2020-02-26T12:09:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py         14414  0.01s             0           0  1.04s           2020-02-26T12:09:14
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:09:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:09:10
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.02s           2020-02-26T12:09:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                          14415  0.00s             0           0  1.03s           2020-02-26T12:09:14
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.02s           2020-02-26T12:09:21
+================================================================================
+[2020-02-26 17:39:35,047] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:39:35,047] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:04:35.047784+00:00
+[2020-02-26 17:39:45,211] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:39:45,212] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:04:45.212222+00:00
+[2020-02-26 17:39:55,390] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:39:55,391] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:04:55.391068+00:00
+[2020-02-26 17:39:55,404] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:09:44
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:09:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:09:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.02s           2020-02-26T12:09:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                         14902  0.00s             0           0  1.03s           2020-02-26T12:09:45
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:09:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:09:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.02s           2020-02-26T12:09:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.02s           2020-02-26T12:09:46
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:09:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.02s           2020-02-26T12:09:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.01s           2020-02-26T12:09:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:09:46
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.02s           2020-02-26T12:09:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:09:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:09:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.02s           2020-02-26T12:09:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.01s           2020-02-26T12:09:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.02s           2020-02-26T12:09:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py     14903  0.00s             0           0  1.02s           2020-02-26T12:09:45
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:09:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.01s           2020-02-26T12:09:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:09:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.02s           2020-02-26T12:09:44
+================================================================================
+[2020-02-26 17:40:05,537] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:40:05,537] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:05:05.537515+00:00
+[2020-02-26 17:40:15,691] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:40:15,692] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:05:15.692697+00:00
+[2020-02-26 17:40:25,849] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:40:25,850] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:05:25.850507+00:00
+[2020-02-26 17:40:25,883] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:10:06
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:10:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:10:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.01s           2020-02-26T12:10:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.01s           2020-02-26T12:10:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                         15347  0.01s             0           0  1.02s           2020-02-26T12:10:15
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:10:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.03s           2020-02-26T12:10:25
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.02s           2020-02-26T12:10:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:10:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.02s           2020-02-26T12:10:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.02s           2020-02-26T12:10:25
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:10:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.02s           2020-02-26T12:10:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                     15346  0.01s             0           0  1.03s           2020-02-26T12:10:15
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:10:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.02s           2020-02-26T12:10:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.01s           2020-02-26T12:10:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.01s           2020-02-26T12:10:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:10:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:10:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.02s           2020-02-26T12:10:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:10:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.01s           2020-02-26T12:10:06
+================================================================================
+[2020-02-26 17:40:36,019] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:40:36,020] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:05:36.020582+00:00
+[2020-02-26 17:40:46,191] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:40:46,192] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:05:46.192149+00:00
+[2020-02-26 17:40:56,382] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:40:56,383] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:05:56.383096+00:00
+[2020-02-26 17:40:56,410] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:10:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:10:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                  15803  0.00s             0           0  1.02s           2020-02-26T12:10:46
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.01s           2020-02-26T12:10:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.02s           2020-02-26T12:10:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:10:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:10:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.02s           2020-02-26T12:10:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.02s           2020-02-26T12:10:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.02s           2020-02-26T12:10:56
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py           15802  0.01s             0           0  1.02s           2020-02-26T12:10:46
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.01s           2020-02-26T12:10:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:10:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.03s           2020-02-26T12:10:56
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:10:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:10:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.02s           2020-02-26T12:10:40
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.02s           2020-02-26T12:10:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.02s           2020-02-26T12:10:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:10:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:10:40
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.02s           2020-02-26T12:10:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:10:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.01s           2020-02-26T12:10:51
+================================================================================
+[2020-02-26 17:41:06,537] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:41:06,538] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:06:06.538360+00:00
+[2020-02-26 17:41:16,704] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:41:16,705] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:06:16.705077+00:00
+[2020-02-26 17:41:26,909] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:41:26,911] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:06:26.910857+00:00
+[2020-02-26 17:41:26,947] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:11:13
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:11:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:11:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.02s           2020-02-26T12:11:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.02s           2020-02-26T12:11:25
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:11:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:11:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.02s           2020-02-26T12:11:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.03s           2020-02-26T12:11:26
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:11:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.02s           2020-02-26T12:11:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.01s           2020-02-26T12:11:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.03s           2020-02-26T12:11:26
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.02s           2020-02-26T12:11:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:11:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py  16202  0.01s             0           0  1.02s           2020-02-26T12:11:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.02s           2020-02-26T12:11:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                      16201  0.01s             0           0  1.03s           2020-02-26T12:11:16
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.02s           2020-02-26T12:11:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:11:25
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:11:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.02s           2020-02-26T12:11:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:11:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.02s           2020-02-26T12:11:13
+================================================================================
+[2020-02-26 17:41:37,103] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:41:37,104] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:06:37.104259+00:00
+[2020-02-26 17:41:47,261] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:41:47,262] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:06:47.262002+00:00
+[2020-02-26 17:41:57,373] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:41:57,374] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:06:57.374712+00:00
+[2020-02-26 17:41:57,405] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                         16697  0.01s             0           0  1.01s           2020-02-26T12:11:36
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:11:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:11:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.01s           2020-02-26T12:11:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.01s           2020-02-26T12:11:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:11:56
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.02s           2020-02-26T12:11:57
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.01s           2020-02-26T12:11:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.01s           2020-02-26T12:11:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:11:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.01s           2020-02-26T12:11:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.01s           2020-02-26T12:11:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.00s           2020-02-26T12:11:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.01s           2020-02-26T12:11:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:11:56
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:11:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.02s           2020-02-26T12:11:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.01s           2020-02-26T12:11:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.01s           2020-02-26T12:11:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:11:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:11:47
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.02s           2020-02-26T12:11:57
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:11:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                           16696  0.01s             0           0  1.02s           2020-02-26T12:11:36
+================================================================================
+[2020-02-26 17:42:07,532] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:42:07,533] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:07:07.533212+00:00
+[2020-02-26 17:42:17,698] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:42:17,699] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:07:17.698944+00:00
+[2020-02-26 17:42:27,851] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:42:27,852] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:07:27.852212+00:00
+[2020-02-26 17:42:27,865] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:12:20
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.02s           2020-02-26T12:12:27
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:12:26
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.02s           2020-02-26T12:12:27
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.02s           2020-02-26T12:12:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:12:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:12:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                  17105  0.00s             0           0  1.03s           2020-02-26T12:12:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.02s           2020-02-26T12:12:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  1.01s           2020-02-26T12:12:25
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.01s           2020-02-26T12:12:26
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                    17106  0.00s             0           0  1.03s           2020-02-26T12:12:17
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:12:22
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  1.01s           2020-02-26T12:12:25
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:12:18
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:12:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.02s           2020-02-26T12:12:09
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.01s           2020-02-26T12:12:23
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.01s           2020-02-26T12:12:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:12:21
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.01s           2020-02-26T12:12:09
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.01s           2020-02-26T12:12:19
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.01s           2020-02-26T12:12:24
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.02s           2020-02-26T12:12:20
+================================================================================
+[2020-02-26 17:42:37,975] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:42:37,976] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:07:37.976711+00:00
+[2020-02-26 17:42:48,105] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:42:48,106] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:07:48.106732+00:00
+[2020-02-26 17:42:58,239] {dag_processing.py:1292} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-02-26 17:42:58,240] {dag_processing.py:1296} INFO - Failing jobs without heartbeat after 2020-02-26 12:07:58.239956+00:00
+[2020-02-26 17:42:58,267] {dag_processing.py:1029} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/hasher/PycharmProjects/airflow/airflow_home/dags/test.py                                                                                                  0           0  1.01s           2020-02-26T12:12:43
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                        0           0  1.01s           2020-02-26T12:12:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  1.01s           2020-02-26T12:12:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  1.01s           2020-02-26T12:12:50
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  1.01s           2020-02-26T12:12:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  1.01s           2020-02-26T12:12:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  1.01s           2020-02-26T12:12:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  1.01s           2020-02-26T12:12:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  1.01s           2020-02-26T12:12:56
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py         17586  0.00s             0           0  1.01s           2020-02-26T12:12:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  1.01s           2020-02-26T12:12:49
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  1.01s           2020-02-26T12:12:51
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                          0           0  1.01s           2020-02-26T12:12:56
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py           17585  0.01s             0           0  1.02s           2020-02-26T12:12:48
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  1.02s           2020-02-26T12:12:52
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  1.01s           2020-02-26T12:12:57
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  1.01s           2020-02-26T12:12:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  1.01s           2020-02-26T12:12:57
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  1.02s           2020-02-26T12:12:58
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  1.01s           2020-02-26T12:12:55
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  1.00s           2020-02-26T12:12:54
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  1.02s           2020-02-26T12:12:53
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/example_complex.py                                                   0           0  1.02s           2020-02-26T12:12:58
+/home/hasher/PycharmProjects/airflow/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.01s           2020-02-26T12:12:43
+================================================================================
